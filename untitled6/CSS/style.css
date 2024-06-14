@@ -1,0 +1,205 @@
+body{
+    margin:2px;
+    background-color: cornsilk;
+}
+/* giving style to my labels ,p,*/
+p,a,li,label{
+    font-family: "Arial Rounded MT Bold";
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Felix Titling";
+    font-size:15px;
+}
+/* styling header*/
+header>div>a>img
+{
+    width:auto ;
+    height: 250px;
+    float: left;
+    position: relative;
+    top: 10%;
+}
+/* styling title in header*/
+header>h1
+{
+position: relative;
+    top: 25%;
+    text-align: center;
+    padding: 5px;
+    color: crimson;
+    font-size:75px;
+font-family: "Goudy Old Style";
+}
+header>h2
+{
+    position: relative;
+    top: 10%;
+    text-align-last: right;
+    color: black;
+    font-size: 25px;
+    font-family: "Goudy Old Style";
+}
+/* styling additional links in header*/
+header>nav>menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+}
+/* giving those links dark background shade*/
+header>nav
+{
+    background-color: #333; /* Dark color for the navigation bar */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+header>nav>menu>li>a
+ {
+     height: 75px;
+    background-color: #555; /* Darker color on hover */
+    text-decoration: none;
+    color: white;
+    font-size: 25px; /* A font size as needed */
+    padding: 5px 8px; /* Adjust padding  */
+    border-radius: 5px; /* for adding rounded corners */
+    margin: 20px;
+}
+/* styling my main*/
+main{
+    width:60%;
+    float:left; /* to move to left*/
+}
+main>section{
+    padding:5%;/* to have a gap between main and section*/
+}
+main>section>div{
+
+    width: 50%;
+    margin: 20px auto 0; /*  top margin as needed */
+
+}
+/* styling my form*/
+main>section>div>form
+{
+
+
+    max-width: 400px;
+    margin: 20px auto 0; /*  top margin as needed */
+
+}
+/* adding my additional images size and padding*/
+main>section>div>form>aside>article
+{
+    width: 250px;
+    height: auto; /* Adjusted height for better look  */
+
+    position: relative;
+    top: 5%;
+}
+main>section>div>form>label{
+    font-size: 15px;
+    font-family: "Arial Rounded MT Bold";
+    padding-top: 2px;
+
+}
+/* styling input boxes*/
+main>section>div>form>input[type="text"],
+main>section>div>form>input[type="email"],
+main>section>div>form>input[type="tel"]
+{
+
+border: solid 2px black;
+    margin: 5px;
+    color: #0e0e0e;
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 100%;
+}
+
+main>section>div>form>input[type="submit"]
+{
+
+    border: solid 5px brown;
+    background-color: crimson;
+    color: #0e0e0e;
+    font-size: 20px;
+    padding: 10px 35px;
+    font-family: "Arial Rounded MT Bold";
+
+
+}
+main>section>div>form
+{
+    width: 100%;
+    margin: 50px; /* Adjusted margin for better spacing */
+    padding-left: 12px;
+
+}
+/* styling aside*/
+aside {
+    width: 30%;
+    float: left;
+    margin: 10px 0;
+}
+/* styling  my article*/
+aside > article {
+    width: 100%; /* Ensure full width for articles within aside */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add some spacing between articles */
+}
+/* styling images in my article*/
+aside > article > section > a > img {
+    width: 150%; /* Full width of the parent section */
+    height: auto; /* Maintain aspect ratio */
+}
+
+aside > article > figure > a > img {
+    width: 100%; /* Full width of the first figure */
+    height: auto; /* Maintain original ratio */
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+aside > article > figure > figcaption {
+    text-align: center; /* Center align captions */
+    font-size: 22px; /* Adjust font size */
+    margin-top: 5px; /* Add some space above the caption */
+    font-family: "Bodoni MT Condensed";
+}
+/* styling footer giving dark color*/
+footer {
+    width: 100%;
+    clear: both;
+    background-color: crimson;
+    padding: 20px 0; /* Use padding to control height */
+    text-align: center;
+    color: white;
+    font-family: "Arial", sans-serif;
+}
+/* logo adding to footer*/
+footer > a > img {
+    width: 150px; /* Adjusted width for better visibility */
+    height: auto;
+    margin: 10px 0; /* Add some spacing */
+}
+
+footer > section {
+    font-size: 14px; /* Adjusted font size */
+    margin: 5px 0; /* Reduced margin */
+    text-align: center;
+}
+/* text in my footer*/
+footer h2, footer h3, footer h4 {
+    margin: 5px 0; /* Reduced margin */
+    font-size: 14px; /* Reduced font size for more compact layout */
+    line-height: 1.5; /* Adjusted line-height for better readability */
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 12px; /* Slightly smaller font size */
+}
